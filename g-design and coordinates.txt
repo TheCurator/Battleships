@@ -6,7 +6,7 @@
 //Ships:
 //Aircraft Carrier = AAAAA [1x5 hitbox]
 //Battleship = BBBB [1x4 hitbox]
-//Crusier = CCC [1x3 hitbox]
+//Cruiser = CCC [1x3 hitbox]
 //Submarine = SSS [1x3 hitbox]
 //Destroyer = DD [1x2 hitbox]
 //Game Design:
