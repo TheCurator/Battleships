@@ -1,0 +1,42 @@
+//Battleships Prototype
+//coordinates 10x10 going by [A-J, 1-10]
+//panels
+//placement board
+//firing board
+//Ships:
+//Aircraft Carrier = AAAAA [1x5 hitbox]
+//Battleship = BBBB [1x4 hitbox]
+//Crusier = CCC [1x3 hitbox]
+//Submarine = SSS [1x3 hitbox]
+//Destroyer = DD [1x2 hitbox]
+//Game Design:
+//1. how to place the ships
+//2. how to determine what shots to fire
+//3. players take turns calling out coordinates to take shots at
+//4. once a hit is scored, we use 'searhing' shots to try and sink the ship
+//5. when one player has sunken all of the opponents ships they win
+---------------------------------------------------------------------------
+//coordinates.cs
+//[v.01]
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Battleships.Objects.Boards
+{
+	public class Coordinates
+	{
+		public int Row{get; set;}
+		public int Column{get; set;}
+
+		public Coordinates(int row, int column)
+		{
+			Row = row;
+			Column = column;
+		}
+	}
+}
+----------------------------------------------------------------------------
